@@ -19,7 +19,8 @@
 ```bash
 EM-InstructNER/
 ├── dataset/                  # 公开数据集（部分）
-│   └── train_4000.json       # 4000条高质量指令数据
+│   ├── test.json             # 1537条高质量指令数据
+│   └── splits.json      
 ├── KG/                       # 知识图谱构建相关
 │   ├── KG_Construct.py       # 三阶段KG构建脚本
 │   └── KG-metadata.xlsx
@@ -35,6 +36,7 @@ EM-InstructNER/
 ├── README.md
 └── License.txt
 ---
+🚀 快速开始
 ## 1. 环境安装
 git clone https://github.com/David-lin-root/EM-InstructNER.git
 cd EM-InstructNER
@@ -50,7 +52,7 @@ bash Merge_ck.sh
 ##4. 推理测试
 打开 code/test.ipynb 运行实体抽取测试。
 ---
-##数据集说明
+📊 数据集说明
 实体类型（5类）：
 Date：日期和时间
 Location：地理位置
@@ -61,7 +63,7 @@ Strength：灾害强度
 公开规模：15,37 条高质量指令数据
 完整规模：15,372 条
 ---
-##核心方法
+📈 核心方法
 指令微调（Instruction Tuning）
 知识图谱增强检索（KG-RAG）
 LoRA 参数高效微调（训练参数仅为全参数的约1.2%）
@@ -72,7 +74,7 @@ Prompt 模板位于 prompt/ 目录
 训练配置见 scripts/lora_sft.sh
 知识图谱构建脚本：KG/KG_Construct.py
 ---
-##引用
+📄 引用
 如果您使用了本项目，请引用我们的论文：
 @article{zhang2026eminstructner,
   title={Named Entity Recognition Method for Natural Disaster Emergencies Based on Instruction Tuning and Graph Retrieval-Augmented Generation},
@@ -81,7 +83,7 @@ Prompt 模板位于 prompt/ 目录
   year={2026}
 }
 ---
-## License
+📜 License
 本项目采用 MIT License 开源，详情见 License.txt。
 主要用于学术研究，商业使用请联系作者。
 ##支持我们
