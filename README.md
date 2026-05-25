@@ -37,6 +37,7 @@ EM-InstructNER/
 └── License.txt
 ---
 🚀 快速开始
+Bash
 ## 1. 环境安装
 git clone https://github.com/David-lin-root/EM-InstructNER.git
 cd EM-InstructNER
@@ -53,6 +54,7 @@ bash Merge_ck.sh
 打开 code/test.ipynb 运行实体抽取测试。
 ---
 📊 数据集说明
+Bash
 实体类型（5类）：
 Date：日期和时间
 Location：地理位置
@@ -64,6 +66,7 @@ Strength：灾害强度
 完整规模：15,372 条
 ---
 📈 核心方法
+Bash
 指令微调（Instruction Tuning）
 知识图谱增强检索（KG-RAG）
 LoRA 参数高效微调（训练参数仅为全参数的约1.2%）
@@ -75,6 +78,7 @@ Prompt 模板位于 prompt/ 目录
 知识图谱构建脚本：KG/KG_Construct.py
 ---
 📄 引用
+Bash
 如果您使用了本项目，请引用我们的论文：
 @article{zhang2026eminstructner,
   title={Named Entity Recognition Method for Natural Disaster Emergencies Based on Instruction Tuning and Graph Retrieval-Augmented Generation},
@@ -84,6 +88,7 @@ Prompt 模板位于 prompt/ 目录
 }
 ---
 📜 License
+Bash
 本项目采用 MIT License 开源，详情见 License.txt。
 主要用于学术研究，商业使用请联系作者。
 ##支持我们
