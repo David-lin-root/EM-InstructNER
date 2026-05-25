@@ -34,3 +34,57 @@ EM-InstructNER/
 │   └── run.py
 ├── requirements.txt
 └── License.txt
+🚀 快速开始
+1. 环境安装
+git clone https://github.com/David-lin-root/EM-InstructNER.git
+cd EM-InstructNER
+pip install -r requirements.txt
+2. LoRA 微调训练
+cd scripts
+bash lora_sft.sh
+3. 模型合并
+bash Merge_ck.sh
+4. 推理测试
+
+打开 code/test.ipynb 运行实体抽取测试。
+
+📊 数据集说明
+
+实体类型（5类）：
+
+Date：日期和时间
+Location：地理位置
+Type：灾害类型
+Description：灾害描述
+Strength：灾害强度
+
+数据规模：
+
+公开规模：4,000 条高质量指令数据
+完整规模：15,372 条
+📈 核心方法
+指令微调（Instruction Tuning）
+知识图谱增强检索（KG-RAG）
+LoRA 参数高效微调（约1.2%参数量）
+三阶段知识图谱构建（规则 + 弱监督 + 人工校验）
+🧠 Prompt模板
+
+Prompt 模板位于 prompt/ 目录
+
+📄 引用
+@article{zhang2026eminstructner,
+  title={Named Entity Recognition Method for Natural Disaster Emergencies Based on Instruction Tuning and Graph Retrieval-Augmented Generation},
+  author={Zhang Kehong and Lin Xinyu and Wang Min and others},
+  journal={Big Data and Cognitive Computing},
+  year={2026}
+}
+📜 License
+
+本项目采用 MIT License 开源，详情见 License.txt。
+
+本项目仅用于学术研究，商业使用请联系作者。
+
+⭐ Support
+
+如果本项目对您有帮助，欢迎 Star 本仓库！
+如有问题或合作意向，欢迎提交 Issue。
