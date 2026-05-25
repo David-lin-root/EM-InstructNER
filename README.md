@@ -36,9 +36,11 @@ EM-InstructNER/
 ├── README.md
 └── License.txt
 ---
-🚀 快速开始
-Bash
-## 1. 环境安装
+
+##  快速开始
+
+### 1. 环境安装
+```bash
 git clone https://github.com/David-lin-root/EM-InstructNER.git
 cd EM-InstructNER
 pip install -r requirements.txt
@@ -53,8 +55,7 @@ bash Merge_ck.sh
 ##4. 推理测试
 打开 code/test.ipynb 运行实体抽取测试。
 ---
-📊 数据集说明
-Bash
+ ## 数据集说明
 实体类型（5类）：
 Date：日期和时间
 Location：地理位置
