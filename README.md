@@ -82,7 +82,9 @@ LoRA 参数高效微调（约1.2%参数量）
 
 Prompt 模板位于 prompt/ 目录
 
-📄 引用
+---
+
+##引用
 @article{zhang2026eminstructner,
   title={Named Entity Recognition Method for Natural Disaster Emergencies Based on Instruction Tuning and Graph Retrieval-Augmented Generation},
   author={Zhang Kehong and Lin Xinyu and Wang Min and others},
