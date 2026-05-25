@@ -1,0 +1,13 @@
+{
+  "shell_port": 55653,
+  "iopub_port": 54489,
+  "stdin_port": 58173,
+  "control_port": 52107,
+  "hb_port": 40293,
+  "ip": "127.0.0.1",
+  "key": "27a8641d-e2966db0109142e2e3399b90",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "llama",
+  "jupyter_session": "/root/autodl-tmp/\u5927\u6a21\u578b\u8fb9\u754c/get_score.ipynb"
+}

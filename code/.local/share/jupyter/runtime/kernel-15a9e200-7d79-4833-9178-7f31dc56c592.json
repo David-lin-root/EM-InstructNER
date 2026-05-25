@@ -1,0 +1,13 @@
+{
+  "shell_port": 39149,
+  "iopub_port": 36205,
+  "stdin_port": 34377,
+  "control_port": 55479,
+  "hb_port": 44341,
+  "ip": "127.0.0.1",
+  "key": "16a53ec3-43a3f5fd905e9f86cb25248f",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "llama",
+  "jupyter_session": "/root/code/\u77e5\u8bc6\u63d0\u53d6.ipynb"
+}

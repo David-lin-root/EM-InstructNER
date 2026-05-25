@@ -1,0 +1,73 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+env/
+venv/
+ENV/
+miniconda3/
+conda/
+
+# Environment Variables
+*.env
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs & Outputs
+# =========================
+wandb/
+runs/
+run/
+output/
+outputs/
+log/
+logs/
+checkpoint-*/
+
+*.log
+
+# =========================
+# Model Files
+# =========================
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Local Model Directory
+qwen2/
+models/
+model/
+
+# =========================
+# Cache
+# =========================
+.cache/
+dataset_cache/
+huggingface/
+.huggingface/
+transformers_cache/
+
+# =========================
+# Dataset
+# =========================
+dataset/train_full*.json
+dataset/*full*.json
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+ HuggingFace cache

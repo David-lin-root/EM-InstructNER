@@ -1,0 +1,13 @@
+{
+  "shell_port": 59219,
+  "iopub_port": 45653,
+  "stdin_port": 42057,
+  "control_port": 38509,
+  "hb_port": 34491,
+  "ip": "127.0.0.1",
+  "key": "248e03ee-02b09b9fa8dbfae6ff3d4857",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "llama",
+  "jupyter_session": "/root/autodl-tmp/\u5927\u6a21\u578b\u4f5c\u6587\u8bc4\u5206/\u539f\u59cb\u8bc4\u8bed\u6d4b\u8bd5.ipynb"
+}

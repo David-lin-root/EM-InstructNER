@@ -1,0 +1,13 @@
+{
+  "base_url": "/jupyter/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 46,
+  "port": 8888,
+  "root_dir": "/root",
+  "secure": false,
+  "sock": "",
+  "token": "jupyter-autodl-container-e94b4883e6-5b5cd4a6-65713331499f74a5eaa963798940c45fd070012de960b4678a3dfe11d8f7faa96",
+  "url": "http://autodl-container-304c4b8481-9e59913f:8888/jupyter/",
+  "version": "2.12.2"
+}

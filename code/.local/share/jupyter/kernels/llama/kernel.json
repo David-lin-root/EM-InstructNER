@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "/root/miniconda3/envs/llama/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "llama",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

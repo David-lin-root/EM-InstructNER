@@ -1,0 +1,10 @@
+{
+    // 笔记本
+    // @jupyterlab/notebook-extension:tracker
+    // 笔记本设置。
+    // **************************************
+
+    // 自动启动首选内核。
+    // 是否自动启动首选内核。
+    "autoStartDefaultKernel": true
+}
