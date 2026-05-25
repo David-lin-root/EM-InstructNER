@@ -1,0 +1,51 @@
+{
+    "lora_r": 8,
+    "lora_alpha": 32,
+    "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "down_proj",
+        "gate_proj",
+        "up_proj"
+    ],
+    "training_batch": {
+        "per_device_train_batch_size": 4,
+        "gradient_accumulation_steps": 2,
+        "per_device_eval_batch_size": 4
+    },
+    "learning_rate_scheduler": {
+        "learning_rate": 5e-05,
+        "warmup_steps": 10,
+        "num_train_epochs": 6
+    },
+    "optimizer_precision": {
+        "optimizer": "AdamW",
+        "bf16": true,
+        "gradient_checkpointing": true,
+        "load_in_bits": 4
+    },
+    "sequence_evaluation": {
+        "block_size": 4096,
+        "evaluation_strategy": "steps",
+        "eval_steps": 100,
+        "max_eval_samples": 200
+    },
+    "saving_logging": {
+        "save_strategy": "epoch",
+        "save_total_limit": 20,
+        "logging_steps": 100,
+        "report_to": "tensorboard"
+    },
+    "others": {
+        "seeds": [
+            42,
+            123,
+            456
+        ],
+        "ddp_find_unused_parameters": false,
+        "NCCL_P2P_DISABLE": 1,
+        "DeepSpeed": "ZeRO-2 (ds_config_zero2.json)"
+    }
+}
