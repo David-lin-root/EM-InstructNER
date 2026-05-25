@@ -34,21 +34,28 @@ EM-InstructNER/
 │   └── run.py
 ├── requirements.txt
 └── License.txt
-🚀 快速开始
-1. 环境安装
+---
+## 快速开始
+
+### 1. 环境安装
+
+```bash
 git clone https://github.com/David-lin-root/EM-InstructNER.git
 cd EM-InstructNER
 pip install -r requirements.txt
-2. LoRA 微调训练
+### 2. LoRA 微调训练
+```bash
 cd scripts
 bash lora_sft.sh
-3. 模型合并
+### 3. 模型合并
+```bash
 bash Merge_ck.sh
-4. 推理测试
-
+###4. 推理测试
 打开 code/test.ipynb 运行实体抽取测试。
 
-📊 数据集说明
+---
+
+## 数据集说明
 
 实体类型（5类）：
 
@@ -59,15 +66,19 @@ Description：灾害描述
 Strength：灾害强度
 
 数据规模：
-
-公开规模：4,000 条高质量指令数据
+公开规模：1537 条高质量指令数据
 完整规模：15,372 条
-📈 核心方法
+
+---
+
+##核心方法
 指令微调（Instruction Tuning）
 知识图谱增强检索（KG-RAG）
 LoRA 参数高效微调（约1.2%参数量）
 三阶段知识图谱构建（规则 + 弱监督 + 人工校验）
-🧠 Prompt模板
+
+---
+##Prompt模板
 
 Prompt 模板位于 prompt/ 目录
 
@@ -78,13 +89,18 @@ Prompt 模板位于 prompt/ 目录
   journal={Big Data and Cognitive Computing},
   year={2026}
 }
-📜 License
+
+---
+
+##License
 
 本项目采用 MIT License 开源，详情见 License.txt。
 
 本项目仅用于学术研究，商业使用请联系作者。
 
-⭐ Support
+---
+
+##Support
 
 如果本项目对您有帮助，欢迎 Star 本仓库！
 如有问题或合作意向，欢迎提交 Issue。
